@@ -33,8 +33,3 @@
 composer require digitaltoman/zare-laravel-persian
 
 
-### روش ۲ : نصب دستی
-
-
-
-git clone https://github.com/Digitaltoman/zare-laravel-persian.git
