@@ -23,7 +23,32 @@
 
 ---
 
-## 🚀 نصب سریع
+🇺🇸 English | انگلیسی
+
+Package Introduction
+
+Zare Laravel Persian is a comprehensive and intelligent package for complete Persian localization of Laravel projects, developed by Raho Chare group (rahochare.ir). The goal of this package is to simplify and standardize the development of multilingual projects, especially with a focus on the Persian language.
+
+🎯 Package Goals
+
+· ✅ Automatic number conversion in input and output
+· ✅ Full support for Persian (Jalali) calendar
+· ✅ Specific Iranian validation rules
+· ✅ Completely automatic installation and setup
+· ✅ Full compatibility with different Laravel versions
+
+✨ Key Features
+
+· 🔢 Smart Number Conversion: Automatic conversion of Persian to English numbers in input and vice versa in output
+· 📅 Persian Calendar: Full support for Jalali calendar with advanced features
+· ✅ Iranian Validation: Validation for national code, mobile number, and postal code of Iran
+· 🔤 Number to Words: Conversion of numbers to Persian words with financial amount support
+· ⚡ Automatic Installation: No manual configuration required
+· 🌐 Multilingual: Support for multilingual projects
+
+---
+
+🚀 نصب سریع | Quick Installation
 
 ### روش ۱: Composer
 
