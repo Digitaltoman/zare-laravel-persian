@@ -1,6 +1,6 @@
 # Zare Laravel Persian 🇮🇷
 
-![GitHub release](https://img.shields.io/github/v/release/Digitaltoman/zare-aravel-persian)
+![GitHub release](https://img.shields.io/github/v/release/Digitaltoman/zare-laravel-persian)
 ![GitHub issues](https://img.shields.io/github/issues/Digitaltoman/zare-laravel-persian)
 ![GitHub license](https://img.shields.io/github/license/Digitaltoman/zare-laravel-persian)
 ![Laravel](https://img.shields.io/badge/Laravel-8+-FF2D20?logo=laravel&logoColor=white)
