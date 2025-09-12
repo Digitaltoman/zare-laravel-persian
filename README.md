@@ -121,56 +121,21 @@ echo NumberToWords::toPersianMoney(1250000);
 
 ---
 
-## 🤝 مشارکت | Contributing
+## 🤝 مشارکت | ---
 
-1. Fork the project
+## 🤝 مشارکت (Contributing)
+اگر مایل به مشارکت هستید:
+1. پروژه را Fork کنید
+2. Branch جدید ایجاد کنید
+3. Pull Request ارسال کنید
 
+## 💖 اسپانسرها و حامیان (Sponsors & Supporters)
+این پروژه با حمایت **[راه و چاره](https://rahochare.ir)** توسعه داده می‌شود.  
+اگر تمایل دارید اسپانسر شوید، لطفاً با ما تماس بگیرید.  
 
-2. Create your feature branch (git checkout -b feature/new-feature)
-
-
-3. Commit your changes (git commit -m 'Add new feature')
-
-
-4. Push to the branch (git push origin feature/new-feature)
-
-
-5. Open a Pull Request
-
-
-
+## 📞 پشتیبانی (Support)
+- 🌐 وبسایت: [rahochare.ir](https://rahochare.ir)  
+- 📧 ایمیل: support@rahochare.ir  
+- 🐛 گزارش مشکلات: [Issues](../../issues)  
 
 ---
-
-## 💖 اسپانسرها | Sponsors
-
-این پروژه با حمایت گروه راه و چاره توسعه داده می‌شود.
-If you’d like to sponsor this project, please contact us.
-
-
----
-
-### 📞 پشتیبانی | Support
-
-### 🌐 وبسایت: rahochare.ir
-
-### 📧 ایمیل: support@rahochare.ir
-
-### 🐛 گزارش باگ‌ها: GitHub Issues
-
-
-
----
-
-## 📄 لایسنس | License
-
-این پروژه تحت لایسنس MIT منتشر شده است.
-This project is released under the MIT license.
-
-
----
-
-## توسعه داده شده با ❤️ برای جامعه برنامه‌نویسان ایرانی 🇮🇷
-
----
-
