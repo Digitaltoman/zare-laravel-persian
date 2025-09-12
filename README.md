@@ -30,33 +30,37 @@
 
 ```bash
 composer require zare/laravel-persian
-
+```
 ---
 ### روش ۲: نصب دستی | Method 2: Manual Installation
-
+```bash
 git clone https://github.com/Digitaltoman/zare-laravel-persian.git
+
+```
 ---
 ### اضافه کردن به composer.json:
 Add to your composer.json:
 
+```bash
 {
     "require": {
         "zare/laravel-persian": "*"
     }
 }
 
-
+```
 ---
 
 ## ⚙️ تنظیمات | Configuration
 
 انتشار فایل کانفیگ:
 Publish config file:
-
+```bash
 php artisan vendor:publish --provider="Zare\\LaravelPersian\\ZareServiceProvider" --tag="zare-persian-config"
+```
 
 فایل config/zare-persian.php شامل تنظیمات زیر است:
-
+```
 return [
     'enabled' => true,
     'auto_convert' => true,
@@ -71,36 +75,37 @@ return [
         'auto_register' => true,
     ],
 ];
-
+```
 
 ---
 
-##📦 استفاده | Usage
+## 📦 استفاده | Usage
 
 ### 1. تبدیل اعداد | Number Conversion
-
+```
 use Zare\LaravelPersian\Support\Converter;
 
 $persian = Converter::englishToPersian('1234567890'); // ۱۲۳۴۵۶۷۸۹۰
 $english = Converter::persianToEnglish('۱۲۳۴۵۶۷۸۹۰'); // 1234567890
-
+```
 ### 2. تاریخ شمسی | Jalali Dates
-
+```
 use Zare\LaravelPersian\Support\Jalali;
 
 echo Jalali::toJalali(now(), 'Y/m/d'); // ۱۴۰۲/۱۰/۱۵
 echo Jalali::fromJalali('1402/10/15'); // 2024-01-05
+```
 
 ### 3. اعتبارسنجی ایرانی | Validation
-
+```
 $request->validate([
     'mobile' => 'required|persian_mobile',
     'national_code' => 'required|national_code',
     'postal_code' => 'required|persian_postal_code',
 ]);
-
+```
 ### 4. اعداد به حروف | Number To Words
-
+```
 use Zare\LaravelPersian\Support\NumberToWords;
 
 echo NumberToWords::toPersianWords(1250000);
@@ -108,7 +113,7 @@ echo NumberToWords::toPersianWords(1250000);
 
 echo NumberToWords::toPersianMoney(1250000);
 // "یک میلیون و دویست و پنجاه هزار تومان"
-
+```
 
 ---
 
